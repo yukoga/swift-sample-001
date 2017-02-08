@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D509777B1E4AB849000B2515 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D509777A1E4AB849000B2515 /* AppDelegate.swift */; };
+		D509777D1E4AB849000B2515 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D509777C1E4AB849000B2515 /* RootViewController.swift */; };
+		D509777F1E4AB849000B2515 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D509777E1E4AB849000B2515 /* DataViewController.swift */; };
+		D50977811E4AB849000B2515 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50977801E4AB849000B2515 /* ModelController.swift */; };
+		D50977841E4AB849000B2515 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50977821E4AB849000B2515 /* Main.storyboard */; };
+		D50977861E4AB849000B2515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50977851E4AB849000B2515 /* Assets.xcassets */; };
+		D50977891E4AB849000B2515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50977871E4AB849000B2515 /* LaunchScreen.storyboard */; };
+		D50977941E4AB849000B2515 /* yukoga_gaswift_sample1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50977931E4AB849000B2515 /* yukoga_gaswift_sample1Tests.swift */; };
+		D509779F1E4AB849000B2515 /* yukoga_gaswift_sample1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D509779E1E4AB849000B2515 /* yukoga_gaswift_sample1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D50977901E4AB849000B2515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D509776F1E4AB848000B2515 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D50977761E4AB848000B2515;
+			remoteInfo = yukoga.gaswift.sample1;
+		};
+		D509779B1E4AB849000B2515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D509776F1E4AB848000B2515 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D50977761E4AB848000B2515;
+			remoteInfo = yukoga.gaswift.sample1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D50977771E4AB849000B2515 /* yukoga.gaswift.sample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yukoga.gaswift.sample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D509777A1E4AB849000B2515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D509777C1E4AB849000B2515 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D509777E1E4AB849000B2515 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		D50977801E4AB849000B2515 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		D50977831E4AB849000B2515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D50977851E4AB849000B2515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D50977881E4AB849000B2515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D509778A1E4AB849000B2515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D509778F1E4AB849000B2515 /* yukoga.gaswift.sample1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yukoga.gaswift.sample1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50977931E4AB849000B2515 /* yukoga_gaswift_sample1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yukoga_gaswift_sample1Tests.swift; sourceTree = "<group>"; };
+		D50977951E4AB849000B2515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D509779A1E4AB849000B2515 /* yukoga.gaswift.sample1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yukoga.gaswift.sample1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D509779E1E4AB849000B2515 /* yukoga_gaswift_sample1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yukoga_gaswift_sample1UITests.swift; sourceTree = "<group>"; };
+		D50977A01E4AB849000B2515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D50977741E4AB848000B2515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D509778C1E4AB849000B2515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50977971E4AB849000B2515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D509776E1E4AB848000B2515 = {
+			isa = PBXGroup;
+			children = (
+				D50977791E4AB849000B2515 /* yukoga.gaswift.sample1 */,
+				D50977921E4AB849000B2515 /* yukoga.gaswift.sample1Tests */,
+				D509779D1E4AB849000B2515 /* yukoga.gaswift.sample1UITests */,
+				D50977781E4AB849000B2515 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D50977781E4AB849000B2515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D50977771E4AB849000B2515 /* yukoga.gaswift.sample1.app */,
+				D509778F1E4AB849000B2515 /* yukoga.gaswift.sample1Tests.xctest */,
+				D509779A1E4AB849000B2515 /* yukoga.gaswift.sample1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D50977791E4AB849000B2515 /* yukoga.gaswift.sample1 */ = {
+			isa = PBXGroup;
+			children = (
+				D509777A1E4AB849000B2515 /* AppDelegate.swift */,
+				D509777C1E4AB849000B2515 /* RootViewController.swift */,
+				D509777E1E4AB849000B2515 /* DataViewController.swift */,
+				D50977801E4AB849000B2515 /* ModelController.swift */,
+				D50977821E4AB849000B2515 /* Main.storyboard */,
+				D50977851E4AB849000B2515 /* Assets.xcassets */,
+				D50977871E4AB849000B2515 /* LaunchScreen.storyboard */,
+				D509778A1E4AB849000B2515 /* Info.plist */,
+			);
+			path = yukoga.gaswift.sample1;
+			sourceTree = "<group>";
+		};
+		D50977921E4AB849000B2515 /* yukoga.gaswift.sample1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D50977931E4AB849000B2515 /* yukoga_gaswift_sample1Tests.swift */,
+				D50977951E4AB849000B2515 /* Info.plist */,
+			);
+			path = yukoga.gaswift.sample1Tests;
+			sourceTree = "<group>";
+		};
+		D509779D1E4AB849000B2515 /* yukoga.gaswift.sample1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D509779E1E4AB849000B2515 /* yukoga_gaswift_sample1UITests.swift */,
+				D50977A01E4AB849000B2515 /* Info.plist */,
+			);
+			path = yukoga.gaswift.sample1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D50977761E4AB848000B2515 /* yukoga.gaswift.sample1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50977A31E4AB849000B2515 /* Build configuration list for PBXNativeTarget "yukoga.gaswift.sample1" */;
+			buildPhases = (
+				D50977731E4AB848000B2515 /* Sources */,
+				D50977741E4AB848000B2515 /* Frameworks */,
+				D50977751E4AB848000B2515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yukoga.gaswift.sample1;
+			productName = yukoga.gaswift.sample1;
+			productReference = D50977771E4AB849000B2515 /* yukoga.gaswift.sample1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D509778E1E4AB849000B2515 /* yukoga.gaswift.sample1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50977A61E4AB849000B2515 /* Build configuration list for PBXNativeTarget "yukoga.gaswift.sample1Tests" */;
+			buildPhases = (
+				D509778B1E4AB849000B2515 /* Sources */,
+				D509778C1E4AB849000B2515 /* Frameworks */,
+				D509778D1E4AB849000B2515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D50977911E4AB849000B2515 /* PBXTargetDependency */,
+			);
+			name = yukoga.gaswift.sample1Tests;
+			productName = yukoga.gaswift.sample1Tests;
+			productReference = D509778F1E4AB849000B2515 /* yukoga.gaswift.sample1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D50977991E4AB849000B2515 /* yukoga.gaswift.sample1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50977A91E4AB849000B2515 /* Build configuration list for PBXNativeTarget "yukoga.gaswift.sample1UITests" */;
+			buildPhases = (
+				D50977961E4AB849000B2515 /* Sources */,
+				D50977971E4AB849000B2515 /* Frameworks */,
+				D50977981E4AB849000B2515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D509779C1E4AB849000B2515 /* PBXTargetDependency */,
+			);
+			name = yukoga.gaswift.sample1UITests;
+			productName = yukoga.gaswift.sample1UITests;
+			productReference = D509779A1E4AB849000B2515 /* yukoga.gaswift.sample1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D509776F1E4AB848000B2515 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yukoga;
+				TargetAttributes = {
+					D50977761E4AB848000B2515 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					D509778E1E4AB849000B2515 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D50977761E4AB848000B2515;
+					};
+					D50977991E4AB849000B2515 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D50977761E4AB848000B2515;
+					};
+				};
+			};
+			buildConfigurationList = D50977721E4AB848000B2515 /* Build configuration list for PBXProject "yukoga.gaswift.sample1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D509776E1E4AB848000B2515;
+			productRefGroup = D50977781E4AB849000B2515 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D50977761E4AB848000B2515 /* yukoga.gaswift.sample1 */,
+				D509778E1E4AB849000B2515 /* yukoga.gaswift.sample1Tests */,
+				D50977991E4AB849000B2515 /* yukoga.gaswift.sample1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D50977751E4AB848000B2515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50977891E4AB849000B2515 /* LaunchScreen.storyboard in Resources */,
+				D50977861E4AB849000B2515 /* Assets.xcassets in Resources */,
+				D50977841E4AB849000B2515 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D509778D1E4AB849000B2515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50977981E4AB849000B2515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D50977731E4AB848000B2515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D509777D1E4AB849000B2515 /* RootViewController.swift in Sources */,
+				D50977811E4AB849000B2515 /* ModelController.swift in Sources */,
+				D509777F1E4AB849000B2515 /* DataViewController.swift in Sources */,
+				D509777B1E4AB849000B2515 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D509778B1E4AB849000B2515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50977941E4AB849000B2515 /* yukoga_gaswift_sample1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50977961E4AB849000B2515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D509779F1E4AB849000B2515 /* yukoga_gaswift_sample1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D50977911E4AB849000B2515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D50977761E4AB848000B2515 /* yukoga.gaswift.sample1 */;
+			targetProxy = D50977901E4AB849000B2515 /* PBXContainerItemProxy */;
+		};
+		D509779C1E4AB849000B2515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D50977761E4AB848000B2515 /* yukoga.gaswift.sample1 */;
+			targetProxy = D509779B1E4AB849000B2515 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D50977821E4AB849000B2515 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50977831E4AB849000B2515 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D50977871E4AB849000B2515 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50977881E4AB849000B2515 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D50977A11E4AB849000B2515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D50977A21E4AB849000B2515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D50977A41E4AB849000B2515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = yukoga.gaswift.sample1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yukoga-co.yukoga-gaswift-sample1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D50977A51E4AB849000B2515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = yukoga.gaswift.sample1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yukoga-co.yukoga-gaswift-sample1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D50977A71E4AB849000B2515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yukoga.gaswift.sample1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yukoga-co.yukoga-gaswift-sample1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yukoga.gaswift.sample1.app/yukoga.gaswift.sample1";
+			};
+			name = Debug;
+		};
+		D50977A81E4AB849000B2515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yukoga.gaswift.sample1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yukoga-co.yukoga-gaswift-sample1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yukoga.gaswift.sample1.app/yukoga.gaswift.sample1";
+			};
+			name = Release;
+		};
+		D50977AA1E4AB849000B2515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = yukoga.gaswift.sample1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yukoga-co.yukoga-gaswift-sample1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = yukoga.gaswift.sample1;
+			};
+			name = Debug;
+		};
+		D50977AB1E4AB849000B2515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = yukoga.gaswift.sample1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yukoga-co.yukoga-gaswift-sample1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = yukoga.gaswift.sample1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D50977721E4AB848000B2515 /* Build configuration list for PBXProject "yukoga.gaswift.sample1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50977A11E4AB849000B2515 /* Debug */,
+				D50977A21E4AB849000B2515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D50977A31E4AB849000B2515 /* Build configuration list for PBXNativeTarget "yukoga.gaswift.sample1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50977A41E4AB849000B2515 /* Debug */,
+				D50977A51E4AB849000B2515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D50977A61E4AB849000B2515 /* Build configuration list for PBXNativeTarget "yukoga.gaswift.sample1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50977A71E4AB849000B2515 /* Debug */,
+				D50977A81E4AB849000B2515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D50977A91E4AB849000B2515 /* Build configuration list for PBXNativeTarget "yukoga.gaswift.sample1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50977AA1E4AB849000B2515 /* Debug */,
+				D50977AB1E4AB849000B2515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D509776F1E4AB848000B2515 /* Project object */;
+}

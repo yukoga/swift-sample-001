@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>yukoga.gaswift.sample1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D50977761E4AB848000B2515</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D509778E1E4AB849000B2515</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D50977991E4AB849000B2515</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
