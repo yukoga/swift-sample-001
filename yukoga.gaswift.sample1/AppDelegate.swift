@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import Google
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // [START tracker_swift]
+        // Configure tracker from GoogleService-Info.plist.
+        var configureError: NSError?
+        GGLContext.sharedInstance().configureWithError(&configureError)
+        assert(configureError == nil, "Error configuring Google services: \(configureError)")
+        
+        // Optional: configure GAI options.
+        FIRApp.configure()
+//        FIRMessaging.messaging().remoteMessageDelegate = self
+        let gai = GAI.sharedInstance()
+        gai?.trackUncaughtExceptions = true  // report uncaught exceptions
+        #if DEBUG
+            gai?.dispatchInterval = 10
+            gai?.logger.logLevel = .verbose
+        #else
+            gai?.logger.logLevel = .none
+        #endif
+        
         return true
     }
 

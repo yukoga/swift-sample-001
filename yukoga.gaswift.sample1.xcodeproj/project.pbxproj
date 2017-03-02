@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		415F4A8FBC84739B1B3497EF /* libPods-yukoga.gaswift.sample1Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4787073FADEEA41E0EAA972A /* libPods-yukoga.gaswift.sample1Tests.a */; };
+		62B3EFA8768EE64E6E45D5AC /* libPods-yukoga.gaswift.sample1UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5115D95D32A2DF013F28DF8 /* libPods-yukoga.gaswift.sample1UITests.a */; };
+		A53599B6E1804C1F409C2B11 /* libPods-yukoga.gaswift.sample1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A354C4B89C313758FD3D8DC9 /* libPods-yukoga.gaswift.sample1.a */; };
 		D509777B1E4AB849000B2515 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D509777A1E4AB849000B2515 /* AppDelegate.swift */; };
 		D509777D1E4AB849000B2515 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D509777C1E4AB849000B2515 /* RootViewController.swift */; };
 		D509777F1E4AB849000B2515 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D509777E1E4AB849000B2515 /* DataViewController.swift */; };
@@ -16,6 +19,7 @@
 		D50977891E4AB849000B2515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50977871E4AB849000B2515 /* LaunchScreen.storyboard */; };
 		D50977941E4AB849000B2515 /* yukoga_gaswift_sample1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50977931E4AB849000B2515 /* yukoga_gaswift_sample1Tests.swift */; };
 		D509779F1E4AB849000B2515 /* yukoga_gaswift_sample1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D509779E1E4AB849000B2515 /* yukoga_gaswift_sample1UITests.swift */; };
+		D55823441E668EA2006D9010 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D55823431E668EA2006D9010 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4787073FADEEA41E0EAA972A /* libPods-yukoga.gaswift.sample1Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yukoga.gaswift.sample1Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5964FA239834C67B55437B06 /* Pods-yukoga.gaswift.sample1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yukoga.gaswift.sample1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yukoga.gaswift.sample1Tests/Pods-yukoga.gaswift.sample1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		613332A916F38D03EF0343A4 /* Pods-yukoga.gaswift.sample1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yukoga.gaswift.sample1UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yukoga.gaswift.sample1UITests/Pods-yukoga.gaswift.sample1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		64F2BE5DB5943FDB9014EE18 /* Pods-yukoga.gaswift.sample1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yukoga.gaswift.sample1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yukoga.gaswift.sample1/Pods-yukoga.gaswift.sample1.debug.xcconfig"; sourceTree = "<group>"; };
+		782058531BAA37F292B971CC /* Pods-yukoga.gaswift.sample1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yukoga.gaswift.sample1.release.xcconfig"; path = "Pods/Target Support Files/Pods-yukoga.gaswift.sample1/Pods-yukoga.gaswift.sample1.release.xcconfig"; sourceTree = "<group>"; };
+		A354C4B89C313758FD3D8DC9 /* libPods-yukoga.gaswift.sample1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yukoga.gaswift.sample1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5115D95D32A2DF013F28DF8 /* libPods-yukoga.gaswift.sample1UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yukoga.gaswift.sample1UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92C61A1CC0BC6B251DA0934 /* Pods-yukoga.gaswift.sample1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yukoga.gaswift.sample1UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yukoga.gaswift.sample1UITests/Pods-yukoga.gaswift.sample1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		CCC5615882630AD207678BFE /* Pods-yukoga.gaswift.sample1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yukoga.gaswift.sample1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yukoga.gaswift.sample1Tests/Pods-yukoga.gaswift.sample1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D50977771E4AB849000B2515 /* yukoga.gaswift.sample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yukoga.gaswift.sample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D509777A1E4AB849000B2515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D509777C1E4AB849000B2515 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +64,8 @@
 		D509779A1E4AB849000B2515 /* yukoga.gaswift.sample1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yukoga.gaswift.sample1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D509779E1E4AB849000B2515 /* yukoga_gaswift_sample1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yukoga_gaswift_sample1UITests.swift; sourceTree = "<group>"; };
 		D50977A01E4AB849000B2515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D55823431E668EA2006D9010 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D59BD94F1E66785000D2A34B /* yukoga-gaswift-sample1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yukoga-gaswift-sample1-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A53599B6E1804C1F409C2B11 /* libPods-yukoga.gaswift.sample1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				415F4A8FBC84739B1B3497EF /* libPods-yukoga.gaswift.sample1Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +89,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62B3EFA8768EE64E6E45D5AC /* libPods-yukoga.gaswift.sample1UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		774507E84A62254D7EB9B1ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64F2BE5DB5943FDB9014EE18 /* Pods-yukoga.gaswift.sample1.debug.xcconfig */,
+				782058531BAA37F292B971CC /* Pods-yukoga.gaswift.sample1.release.xcconfig */,
+				5964FA239834C67B55437B06 /* Pods-yukoga.gaswift.sample1Tests.debug.xcconfig */,
+				CCC5615882630AD207678BFE /* Pods-yukoga.gaswift.sample1Tests.release.xcconfig */,
+				613332A916F38D03EF0343A4 /* Pods-yukoga.gaswift.sample1UITests.debug.xcconfig */,
+				A92C61A1CC0BC6B251DA0934 /* Pods-yukoga.gaswift.sample1UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8F9FC037004217DDCA51BA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A354C4B89C313758FD3D8DC9 /* libPods-yukoga.gaswift.sample1.a */,
+				4787073FADEEA41E0EAA972A /* libPods-yukoga.gaswift.sample1Tests.a */,
+				A5115D95D32A2DF013F28DF8 /* libPods-yukoga.gaswift.sample1UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D509776E1E4AB848000B2515 = {
 			isa = PBXGroup;
 			children = (
+				D55823431E668EA2006D9010 /* GoogleService-Info.plist */,
+				D59BD94F1E66785000D2A34B /* yukoga-gaswift-sample1-Bridging-Header.h */,
 				D50977791E4AB849000B2515 /* yukoga.gaswift.sample1 */,
 				D50977921E4AB849000B2515 /* yukoga.gaswift.sample1Tests */,
 				D509779D1E4AB849000B2515 /* yukoga.gaswift.sample1UITests */,
 				D50977781E4AB849000B2515 /* Products */,
+				774507E84A62254D7EB9B1ED /* Pods */,
+				B8F9FC037004217DDCA51BA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D50977A31E4AB849000B2515 /* Build configuration list for PBXNativeTarget "yukoga.gaswift.sample1" */;
 			buildPhases = (
+				A273D7C658ECE4F37C4F7BF6 /* 📦 Check Pods Manifest.lock */,
 				D50977731E4AB848000B2515 /* Sources */,
 				D50977741E4AB848000B2515 /* Frameworks */,
 				D50977751E4AB848000B2515 /* Resources */,
+				D16F5404F6EE9AC87D3FDAB9 /* 📦 Embed Pods Frameworks */,
+				E53BD4B99479229A4DF7703C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D50977A61E4AB849000B2515 /* Build configuration list for PBXNativeTarget "yukoga.gaswift.sample1Tests" */;
 			buildPhases = (
+				E88B80430BDB898FE9DFEAC7 /* 📦 Check Pods Manifest.lock */,
 				D509778B1E4AB849000B2515 /* Sources */,
 				D509778C1E4AB849000B2515 /* Frameworks */,
 				D509778D1E4AB849000B2515 /* Resources */,
+				589BF50ADFCC520C591CEAD1 /* 📦 Embed Pods Frameworks */,
+				56477844CC06E25C446A0379 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D50977A91E4AB849000B2515 /* Build configuration list for PBXNativeTarget "yukoga.gaswift.sample1UITests" */;
 			buildPhases = (
+				753BAC80C77F7F1775C5290B /* 📦 Check Pods Manifest.lock */,
 				D50977961E4AB849000B2515 /* Sources */,
 				D50977971E4AB849000B2515 /* Frameworks */,
 				D50977981E4AB849000B2515 /* Resources */,
+				CA7938EA7EB5765BFA2F9755 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +252,7 @@
 				TargetAttributes = {
 					D50977761E4AB848000B2515 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FF894X2Y2V;
 						ProvisioningStyle = Automatic;
 					};
 					D509778E1E4AB849000B2515 = {
@@ -239,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D50977891E4AB849000B2515 /* LaunchScreen.storyboard in Resources */,
+				D55823441E668EA2006D9010 /* GoogleService-Info.plist in Resources */,
 				D50977861E4AB849000B2515 /* Assets.xcassets in Resources */,
 				D50977841E4AB849000B2515 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +314,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56477844CC06E25C446A0379 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yukoga.gaswift.sample1Tests/Pods-yukoga.gaswift.sample1Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		589BF50ADFCC520C591CEAD1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yukoga.gaswift.sample1Tests/Pods-yukoga.gaswift.sample1Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		753BAC80C77F7F1775C5290B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A273D7C658ECE4F37C4F7BF6 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA7938EA7EB5765BFA2F9755 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yukoga.gaswift.sample1UITests/Pods-yukoga.gaswift.sample1UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D16F5404F6EE9AC87D3FDAB9 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yukoga.gaswift.sample1/Pods-yukoga.gaswift.sample1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E53BD4B99479229A4DF7703C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yukoga.gaswift.sample1/Pods-yukoga.gaswift.sample1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E88B80430BDB898FE9DFEAC7 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D50977731E4AB848000B2515 /* Sources */ = {
@@ -418,30 +596,38 @@
 		};
 		D50977A41E4AB849000B2515 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F2BE5DB5943FDB9014EE18 /* Pods-yukoga.gaswift.sample1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FF894X2Y2V;
 				INFOPLIST_FILE = yukoga.gaswift.sample1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yukoga-co.yukoga-gaswift-sample1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "yukoga-gaswift-sample1-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		D50977A51E4AB849000B2515 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782058531BAA37F292B971CC /* Pods-yukoga.gaswift.sample1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FF894X2Y2V;
 				INFOPLIST_FILE = yukoga.gaswift.sample1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"MTL_ENABLE_DEBUG_INFO[arch=*]" = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "yukoga-co.yukoga-gaswift-sample1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "yukoga-gaswift-sample1-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		D50977A71E4AB849000B2515 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5964FA239834C67B55437B06 /* Pods-yukoga.gaswift.sample1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +642,7 @@
 		};
 		D50977A81E4AB849000B2515 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCC5615882630AD207678BFE /* Pods-yukoga.gaswift.sample1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -470,6 +657,7 @@
 		};
 		D50977AA1E4AB849000B2515 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 613332A916F38D03EF0343A4 /* Pods-yukoga.gaswift.sample1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = yukoga.gaswift.sample1UITests/Info.plist;
@@ -483,6 +671,7 @@
 		};
 		D50977AB1E4AB849000B2515 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92C61A1CC0BC6B251DA0934 /* Pods-yukoga.gaswift.sample1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = yukoga.gaswift.sample1UITests/Info.plist;
@@ -513,6 +702,7 @@
 				D50977A51E4AB849000B2515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D50977A61E4AB849000B2515 /* Build configuration list for PBXNativeTarget "yukoga.gaswift.sample1Tests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +711,7 @@
 				D50977A81E4AB849000B2515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D50977A91E4AB849000B2515 /* Build configuration list for PBXNativeTarget "yukoga.gaswift.sample1UITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +720,7 @@
 				D50977AB1E4AB849000B2515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
